@@ -126,9 +126,9 @@ def update(frame):
 
 
 # Simulate data stream
-data_stream = data_stream_simulation(1000)
+data_stream = data_stream_simulation(500)
 
 # Create the animation for real-time plotting
-ani = animation.FuncAnimation(fig, update, frames=range(1000), repeat=False)
+ani = animation.FuncAnimation(fig, update, frames=range(500), repeat=False)
 
 plt.show()
