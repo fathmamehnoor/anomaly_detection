@@ -17,9 +17,9 @@ This project simulates a data stream with regular patterns and anomalies, using 
 The Exponential Moving Average is a statistical calculation that gives more weight to recent data points, making it responsive to changes in trends. The EMA is particularly useful in time-series data because it smooths out fluctuations and helps identify the underlying trend.
 
 **Formula:** 
-$$
+```math
 \text{EMA}_{\text{new}} = \alpha \cdot \text{Value} + (1 - \alpha) \cdot \text{EMA}_{\text{old}}
-$$
+```
 
 
 
@@ -29,9 +29,9 @@ $$
 The z-score method measures how many standard deviations a data point is from the mean. If a data point's z-score exceeds a specified threshold, it is flagged as an anomaly.
 
 **Formula:**
-$$
+```math
 \text{z-score} = \frac{| \text{value} - \text{EMA} |}{\text{std}}
-$$
+```
 
 
 ### Effectiveness:
