@@ -16,10 +16,11 @@ This project simulates a data stream with regular patterns and anomalies, using 
 
 The Exponential Moving Average is a statistical calculation that gives more weight to recent data points, making it responsive to changes in trends. The EMA is particularly useful in time-series data because it smooths out fluctuations and helps identify the underlying trend.
 
-**Formula:**
+**Formula:** 
 $$
 \text{EMA}_{\text{new}} = \alpha \cdot \text{Value} + (1 - \alpha) \cdot \text{EMA}_{\text{old}}
 $$
+
 
 
 
